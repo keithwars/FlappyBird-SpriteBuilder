@@ -16,11 +16,10 @@
 -(void)update:(CCTime)delta
 {
     // put update code here
-    [character flap];
 }
 
 // put new methods here
-- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event { [character flap];
     // this will get called every time the player touches the screen
     
 }
